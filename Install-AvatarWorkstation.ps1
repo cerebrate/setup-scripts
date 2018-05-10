@@ -30,7 +30,8 @@ choco source add -n=Arkane-Choc -s="http://calmirie:8624/nuget/Arkane-Choc/" -p=
 
 # -- Install Chocolatey license
 
-# TODO *************************************************
+choco install chocolatey-license -y
+choco install chocolatey.extension -y
 
 # -- Configure Chocolatey features
 
@@ -122,6 +123,7 @@ choco install openvpn -y
 choco install paint.net -y
 choco install rsat -y
 choco install runinbash -y
+choco install slack -y
 choco install sql-server-management-studio -y
 choco install sysinternals -y
 choco install vcxsrv -y
