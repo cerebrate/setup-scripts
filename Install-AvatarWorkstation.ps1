@@ -79,7 +79,7 @@ Set-TaskbarOptions -Lock -Dock Bottom -Combine Full -Size Large -AlwaysShowIcons
 choco install FiraCode -y
 choco install font-awesome-font -y
 choco install inconsolata -y
-choco install ubuntu.font -y
+choco install ubuntu.font -y # fails
 
 # -- APPX applications
 
@@ -92,20 +92,18 @@ choco install au -y
 choco install bonjour -y
 choco install carob -y
 choco install docker-for-windows -y
-choco install emacsw64 -y
+choco install emacs64 -y
 
 # NOTE: does not currently install .emacs, etc. Must add separately.
 
 choco install expresso -y
 choco install git -y --params="'/NoShellIntegration'"
-choco install github -y
-choco install googlechrome -y
 choco install hub -y
 choco install hyper -y
 
 # NOTE: requires individual setup.
 
-choco install keybase -y
+choco install keybase -y # fails
 
 # NOTE: requires individual setup.
 
@@ -121,14 +119,11 @@ choco install openvpn -y
 # NOTE: does not install VPN keys. Must add separately.
 
 choco install paint.net -y
-choco install rsat -y
 choco install runinbash -y
 choco install slack -y
 choco install sql-server-management-studio -y
 choco install sysinternals -y
-choco install vcxsrv -y
 choco install visualstudiocode -y
-choco install yarn -y
 
 # -- Visual Studio
 
